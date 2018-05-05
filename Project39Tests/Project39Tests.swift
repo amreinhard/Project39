@@ -20,17 +20,17 @@ class Project39Tests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+    func testAllWordsLoaded() {
+        let playData = PlayData()
+        XCTAssertEqual(playData.allWords.count, 18440, "allWords was not 18440")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testWordCountsAreCorrect() {
+        let playData = PlayData()
+        XCTAssertEqual(playData.wordCounts["home"], 174, "Home does not appear 174 times")
+        XCTAssertEqual(playData.wordCounts["fun"], 4, "Fun does not appear 4 times")
+        XCTAssertEqual(playData.wordCounts["mortal"], 41, "Mortal does not appear 41 times")
     }
     
 }

@@ -14,6 +14,8 @@
 		BF5AFB4A209AE5C000F74B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5AFB48209AE5C000F74B5A /* LaunchScreen.storyboard */; };
 		BF5AFB55209AE5C000F74B5A /* Project39Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5AFB54209AE5C000F74B5A /* Project39Tests.swift */; };
 		BF5AFB60209AE5C000F74B5A /* Project39UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5AFB5F209AE5C000F74B5A /* Project39UITests.swift */; };
+		BF5AFB6E209AE5E900F74B5A /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5AFB6D209AE5E900F74B5A /* plays.txt */; };
+		BF5AFB70209AF0C800F74B5A /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5AFB6F209AF0C800F74B5A /* PlayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BF5AFB5B209AE5C000F74B5A /* Project39UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project39UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5AFB5F209AE5C000F74B5A /* Project39UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project39UITests.swift; sourceTree = "<group>"; };
 		BF5AFB61209AE5C000F74B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5AFB6D209AE5E900F74B5A /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
+		BF5AFB6F209AF0C800F74B5A /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 				BF5AFB3F209AE5BF00F74B5A /* AppDelegate.swift */,
 				BF5AFB41209AE5BF00F74B5A /* ViewController.swift */,
 				BF5AFB43209AE5BF00F74B5A /* Main.storyboard */,
+				BF5AFB6F209AF0C800F74B5A /* PlayData.swift */,
 				BF5AFB46209AE5C000F74B5A /* Assets.xcassets */,
 				BF5AFB48209AE5C000F74B5A /* LaunchScreen.storyboard */,
+				BF5AFB6D209AE5E900F74B5A /* plays.txt */,
 				BF5AFB4B209AE5C000F74B5A /* Info.plist */,
 			);
 			path = Project39;
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5AFB6E209AE5E900F74B5A /* plays.txt in Resources */,
 				BF5AFB4A209AE5C000F74B5A /* LaunchScreen.storyboard in Resources */,
 				BF5AFB47209AE5C000F74B5A /* Assets.xcassets in Resources */,
 				BF5AFB45209AE5BF00F74B5A /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5AFB70209AF0C800F74B5A /* PlayData.swift in Sources */,
 				BF5AFB42209AE5BF00F74B5A /* ViewController.swift in Sources */,
 				BF5AFB40209AE5BF00F74B5A /* AppDelegate.swift in Sources */,
 			);
